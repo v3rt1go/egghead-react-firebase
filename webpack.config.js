@@ -1,4 +1,5 @@
 'use strict';
+const webpack = require('webpack');
 
 module.exports = {
   entry: './src/js/main.js',
@@ -11,6 +12,13 @@ module.exports = {
     inline: true,
     contentBase: './dist'
   },
+  //plugins: [
+    //new webpack.ProvidePlugin({
+      //$: "jquery",
+      //jQuery: "jquery",
+      //semantic: "semantic-ui/dist/semantic.min.js"
+    //})
+  //],
   module: {
     loaders: [
       {

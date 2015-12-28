@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/v3rt1go/egghead-react-firebase#readme",
   "dependencies": {
+    "axios": "^0.8.1",
     "better-console": "^0.2.4",
     "del": "^2.2.0",
     "extend": "^3.0.0",
@@ -60,12 +61,16 @@
     "babel-core": "^6.3.21",
     "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.0",
+    "babel-plugin-system-import-transformer": "^1.1.5",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.3.13",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-2": "^6.3.13",
+    "es6-module-loader": "^0.17.9",
     "eslint": "^1.10.3",
     "eslint-loader": "^1.1.1",
     "eslint-plugin-react": "^3.12.0",
+    "systemjs": "^0.19.9",
     "webpack": "^1.12.9"
   }
 }
