@@ -3,7 +3,6 @@ import React from 'react';
 
 class UserProfileComponent extends React.Component {
   render() {
-    console.log("BIO:", this.props.bio);
     return (
       <div className="colum">
         <h3 className="ui header">
